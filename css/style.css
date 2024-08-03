@@ -731,6 +731,10 @@ h3.my-profession
 .contact .contact-form .form-item
 {
     margin-bottom: 30px;
+    display: flex; 
+    justify-content: center; 
+    /*align-items: center;*/
+    /*margin-bottom: 30px;*/
 }
 .contact .contact-form .form-item .form-control
 {
@@ -754,8 +758,11 @@ h3.my-profession
 }
 .contact .contact-form .btn
 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     height: 50px;
-    padding: 0 24px;
+    padding: 15px 24px;
 }
 @media (max-width:1199px)
 {

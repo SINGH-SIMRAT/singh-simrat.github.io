@@ -67,7 +67,7 @@ ScrollReveal().reveal(".home__description", {
 
 ScrollReveal().reveal(".home__btns", {
     ...scrollRevealOption,
-    delay: 2000,
+    delay: 1800,
 });
 
 ScrollReveal().reveal(".section__title", {

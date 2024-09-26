@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="icon" href="assets/icons/pen-nib-solid.svg" type="image/svg+xml">-->
+    <link rel="icon" href="assets/icons/bitmojisimrat.png" type="image/png">
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Simrat's Portfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" id="toggler">
+    <input type="checkbox" id="day-night">
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <h3 class="style__switcher-title">Theme Colors</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Simrat</a>
+
+            <input type="checkbox" id="nav-toggler">
+
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#qualification" class="nav__link">Experience</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#works" class="nav__link">Portfolio</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+            <div class="home__content">
+                <span class="home__small">Hello 👋</span>
+                <h1 class="home__title">
+                    <span> I'm </span> Simratpal Singh <br />
+                    a <span class="typing"> UI/UX Designer</span>
+                </h1>
+
+                <p class="home__description">
+                    I am a dedicated and forward-thinking individual hailing from Mohali, Punjab. A heart of a designer ❤️ beats within me, inspiring innovative solutions that seamlessly merge form and function. 
+                </p>
+                <!--<p>Let's connect and explore the boundless possibilities together!</p> -->
+
+                <div class="home__btns">
+                    <a href="https://forms.gle/dswPNDEKktR5nt2C8" target="_blank" class="btn"> Let's work together ✨</a>
+                    <a href="https://drive.google.com/file/d/1tNrgCO5i7zFxdKGvCrG3rfb5s-kRxCbC/view?usp=sharing" target="_blank" class="btn btn--transparent">View Resume 👨🏻‍🎓</a> 
+                </div>
+            </div>
+            
+            <div class="home__img-wrapper">
+                <!--<img src="assets/img/wall burst.png" alt="" class="home__img">-->
+                <!--<img src="assets/img/greetings.png" alt="" class="home__img">-->
+                <img src="assets/img/waving.png" alt="" class="home__img"> 
+            </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__img-wrapper">
+                <img src="assets/img/hero2.jpg" alt="" class="about__img" />
+                <img src="assets/img/hero2.jpg" alt="" class="about__img" />
+                <img src="assets/img/hero2.jpg" alt="" class="about__img" />
+                <img src="assets/img/hero2.jpg" alt="" class="about__img" />
+            </div>
+
+            <div class="about__content">
+                <h2 class="section__title" data-title="Who am i?">I'm Simratpal Singh Vaseer, a UI/UX Designer, Product Designer and Engineer
+                </h2>
+
+                <p class="about__description"> I'm a designer with extensive experince of over 2 years. My expertise is to craft cool & aesthetic yet problem solving user interface and user experinces. A heart of a designer ❤️ beats within me.</p>
+
+                <ul class="about__data grid">
+                    <li class="data__item">
+                        <h3 class="data__title">From:</h3>
+                        <span class="data__description">Punjab, India</span>
+                    </li>
+
+                    <li class="data__item">
+                        <h3 class="data__title">Hobbies:</h3>
+                        <span class="data__description">Photography, Travel & Reading</span>
+                    </li>
+
+                    <li class="data__item">
+                        <h3 class="data__title">Degree:</h3>
+                        <span class="data__description">Computer Science Engineering</span>
+                    </li>
+
+                    <li class="data__item">
+                        <h3 class="data__title">Age:</h3>
+                        <span class="data__description">22</span>
+                    </li>
+
+                    <!--<li class="data__item">
+                        <h3 class="data__title">Email:</h3>
+                        <span class="data__description about__link">simratpalvaseer@gmail.com</span>
+                    </li> -->
+                </ul>
+
+                <div class="about__bottom">
+                    <a href="https://drive.google.com/file/d/1tNrgCO5i7zFxdKGvCrG3rfb5s-kRxCbC/view?usp=sharing" target="_blank" class="btn">View Resume 👨🏻‍🎓</a>
+
+                    <div class="about__social-links">
+                        <a href="https://www.linkedin.com/in/simratpalsinghvaseer-/" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/simrat_016/" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://x.com/VSimrat" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">
+            Qualification
+        </h2>
+
+        <div class="resume__container container grid">
+
+            <span class="resume__separator"></span> <!-- Dashed border -->
+
+            <!--Education-->
+            <div class="resume__group">
+                <h3 class="resume__heading">Education 🏫</h3>
+
+                <div class="resume__items">
+                    
+                    <!--College-->
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Chandigarh University</h3>
+                            <span class="resume__icon"></span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Bachelor of Computer Science</h3>
+                                <span class="resume__date">2020 - 2024</span>
+                            </div>
+
+                            <p class="resume__description">Graduated with a commendable CGPA of 8.2, gaining comprehensive knowledge in computer science and honing practical skills through various projects and internships.</p>
+                        </div>
+                    </div>
+
+                    <!--+2-->
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Lawerance Public Senior Secondary School</h3>
+                            <span class="resume__icon"></span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Senior Secondary (Science)</h3>
+                                <span class="resume__date">2019 - 2020</span>
+                            </div>
+
+                            <p class="resume__description">Excelled in science subjects with an impressive 88.6%, demonstrating strong analytical and problem-solving abilities, and a commitment to academic excellence.</p>
+                        </div>
+                    </div>
+
+                    <!--10th-->
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Lawerance Public Senior Secondary School</h3>
+                            <span class="resume__icon"></span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Secondary (X)</h3>
+                                <span class="resume__date">2017 - 2018</span>
+                            </div>
+
+                            <p class="resume__description">Completed secondary education with a solid 80%, establishing a firm academic foundation and showcasing consistent performance across subjects.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <span class="resume__icon resume__icon--middle"></span> <!-- Single circle between -->
+
+            <!--Experience-->
+            <div class="resume__group">
+                <h3 class="resume__heading">Experience 💼</h3>
+
+                <div class="resume__items">
+                    
+                    <!--Latest-->
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">ProPeers (Connexpanse Private Limited)</h3>
+                            <!--<span class="resume__icon">+</span>-->
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Product UX/UI Designer</h3>
+                                <span class="resume__date">2024 - Present</span>
+                            </div>
+
+                            <p class="resume__description">Transitioning to a full-time Product UI/UX Designer role at ProPeers, I create intuitive interfaces, turning complex concepts into seamless designs for web and mobile apps with close team collaboration.</p>
+                        </div>
+                    </div>
+
+                    <!--2nd latest-->
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">ProPeers (Connexpanse Private Limited)</h3>
+                            <!--<span class="resume__icon">-</span>-->
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">User Interface Designer</h3>
+                                <span class="resume__date">2022 - 2023</span>
+                            </div>
+
+                            <p class="resume__description">As a UI/UX Designer, I crafted user-driven web and mobile experiences. Led research, wireframing and prototyping, ensuring seamless and impactful designs.</p>
+                        </div>
+                    </div>
+
+                    <!--3rd latest-->
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Viral Fission (Youth Marketing Agency)</h3>
+                            <!--<span class="resume__icon">+</span>-->
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Campus Ambassador</h3>
+                                <span class="resume__date">2021 - 2023</span>
+                            </div>
+
+                            <p class="resume__description">Promoted brands by connecting them with interns, driving engagement through tailored strategies. Created content to foster growth.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Services">
+            What I Offer
+        </h2>
+
+        <div class="services__container container grid">
+            
+            <!--1st-->
+            <div class="services__item">
+                <i class="fa-solid fa-palette services__icon"></i>
+
+                <h3 class="services__title">Figma 🖌️</h3>
+                <p class="services__description">Expert in using Figma for collaborative design projects, creating interactive prototypes, and ensuring seamless design-to-development handoffs.</p>
+
+                <span class="services__no">01</span>
+            </div>
+
+            <!--2nd-->
+            <div class="services__item">
+                <i class="fa-solid fa-mobile-alt services__icon"></i>
+
+                <h3 class="services__title">App Designing 📱</h3>
+                <p class="services__description">Specialized in designing intuitive and user-friendly mobile applications for both Android and iOS platforms, leveraging the latest design principles and technologies.</p>
+
+                <span class="services__no">02</span>
+            </div>
+
+            <!--3rd-->
+            <div class="services__item">
+                <i class="fa-solid fa-laptop services__icon"></i>
+
+                <h3 class="services__title">Web Designing 🌐</h3>
+                <p class="services__description">Skilled in creating visually appealing and responsive websites, combining aesthetic design with functional user experience to deliver high-quality web solutions.</p>
+
+                <span class="services__no">03</span>
+            </div>
+
+            <!--4th-->
+            <div class="services__item">
+                <i class="fa-solid fa-code services__icon"></i>
+
+                <h3 class="services__title">Software Testing 🛠️</h3>
+                <p class="services__description">Proficient in conducting thorough software testing to ensure quality and performance, identifying and resolving bugs to enhance overall system reliability.</p>
+
+                <span class="services__no">04</span>
+            </div>
+
+            <!--5th-->
+            <div class="services__item">
+                <i class="fa-solid fa-search services__icon"></i>
+
+                <h3 class="services__title">Design Thinking 💡</h3>
+                <p class="services__description">Practiced in applying design thinking methodologies to solve complex problems, fostering innovation through empathy, ideation, prototyping, and testing.</p>
+
+                <span class="services__no">05</span>
+            </div>
+
+            <!--6th-->
+            <div class="services__item">
+                <i class="fa-solid fa-bullhorn services__icon"></i>
+
+                <h3 class="services__title">Product Management 🚀</h3>
+                <p class="services__description">Adept at product lifecycle, from ideation to launch, ensuring alignment with business goals and user needs through strategic planning and execution.</p>
+
+                <span class="services__no">06</span>
+            </div>
+
+
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section">
+         <h2 class="section__title title-center" data-title="My Expertise">
+            Professional Skills
+         </h2>
+
+         <div class="skills__container container grid">
+            
+            <!--1st-->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">UI Design 🎨 </h3>
+                    <span class="skills__no">90 %</span>
+                </div>
+
+                <p class="skills__description">Crafting visually appealing interfaces that balance aesthetics and functionality, ensuring users have an intuitive and seamless interaction.</p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 90%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--2nd-->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Wireframing 📝 </h3>
+                    <span class="skills__no">85 %</span>
+                </div>
+
+                <p class="skills__description">Sketching out the blueprint of digital products to visualize layouts and flows before jumping into full design, ensuring clarity and user focus.</p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 85%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--3rd-->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">User Experience 🚀 </h3>
+                    <span class="skills__no">82 %</span>
+                </div>
+
+                <p class="skills__description">Enhancing user satisfaction by improving usability, accessibility, and interaction, creating meaningful and enjoyable product experiences.</p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 82%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--4th-->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Design Thinking 💡</h3>
+                    <span class="skills__no">95 %</span>
+                </div>
+
+                <p class="skills__description">A user-centered, iterative process that solves complex problems creatively, focusing on empathy, ideation, and prototyping.</p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 95%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--5th-->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Prototyping 🔧</h3>
+                    <span class="skills__no">90 %</span>
+                </div>
+
+                <p class="skills__description">Creating interactive mockups to test and validate design ideas quickly, ensuring they work as intended before full development.</p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 90%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--6th-->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Product Management 📈</h3>
+                    <span class="skills__no">90 %</span>
+                </div>
+
+                <p class="skills__description">Overseeing the entire product lifecycle, from idea to launch and ensuring the product meets both business and user needs.</p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 90%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="works section" id="works">
+        <h2 class="section__title title-center" data-title="My Portfolio">
+            Recent Work
+        </h2>
+
+        <div class="work__filters">
+            <span class="work__item active-work" data-filter="all"> All</span>
+            <span class="work__item" data-filter=".web">Web</span>
+            <span class="work__item" data-filter=".app">App</span>
+            <span class="work__item" data-filter=".design">Design</span>
+        </div>
+
+        <div class="work__container container grid">
+            
+            <!--1st-->
+            <div class="work__card mix web app">
+                <img src="assets/img/propeers.png" alt="" class="work__img">
+                <h3 class="work__title">ProPeers</h3>
+                <span class="work__button">View 👀 
+                    <i class="fa fa-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">One stop solution for Skill-Based Learning</h3>
+                    <p class="details__description">Designing an app and website for a startup. Developed interactive prototypes resulting in quicker feedback and improved design iterations.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>Ongoing</span></li>
+                        <li>Technologies - <span>Figma, UI, UX, Wireframing & Prototyping</span></li>
+                        <li>Role - <span>Designer</span></li>
+                        <li>View - <span><a href="https://www.propeers.in/" target="_blank">Visit Site</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--2nd-->
+            <div class="work__card mix design app">
+                <img src="assets/img/FinanceThumnail.png" alt="" class="work__img">
+                <h3 class="work__title">Money Application</h3>
+                <span class="work__button">View 👀
+                    <i class="fa fa-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Streamlined Financial Management at Your Fingertips - Concept</h3>
+                    <p class="details__description">Introducing a visually stunning and intuitive financial app. Easily manage your cards, track spending, and explore investment opportunities with our sleek design and user-friendly interface.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>Nov 2023</span></li>
+                        <li>Technologies - <span>Figma, UI, UX, Wireframing & Prototyping</span></li>
+                        <li>Role - <span>Designer</span></li>
+                        <li>View - <span><a href="https://www.figma.com/design/zwiQWAnXEXUp3utSmaEwIi/Money-Application?t=SnKx2suMFw4soZZ4-0" target="_blank">App Design</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--3rd-->
+            <div class="work__card mix design app">
+                <img src="assets/img/InstagramThumbnail.png" alt="" class="work__img">
+                <h3 class="work__title">Instagram Redesign</h3>
+                <span class="work__button">View 👀
+                    <i class="fa fa-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Social Media App with a Focus on Visual Storytelling - Concept</h3>
+                    <p class="details__description">Capture and share life's moments with our user-friendly social media app. Connect with friends, family, and like-minded individuals while exploring a curated feed of inspiring content.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>Sept 2023</span></li>
+                        <li>Technologies - <span>Figma, UI, UX, Wireframing & Prototyping</span></li>
+                        <li>Role - <span>Designer</span></li>
+                        <li>View - <span><a href="https://www.figma.com/design/iRIVYBK3H2zXe2HVFH3Bbv/Instagram-Redesign?node-id=0-1&t=FoiLmMojJduaOAKA-1" target="_blank">App Design</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--4th-->
+            <div class="work__card mix design app">
+                <img src="assets/img/TestPrepThumbnail.png" alt="" class="work__img">
+                <h3 class="work__title">Test Prep Interface</h3>
+                <span class="work__button">View 👀
+                    <i class="fa fa-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Ace Your Exams with AI-Powered Learning - Concept</h3>
+                    <p class="details__description">Conquer your exams with AI. Personalized guidance, resources, and tracking. Ace your exams with AI-powered learning. Personalized guidance, resources, and tracking. Smart study, big results. Our AI tutor helps you succeed.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>July 2022</span></li>
+                        <li>Technologies - <span>Figma, UI, UX, Wireframing</span></li>
+                        <li>Role - <span>Designer</span></li>
+                        <li>View - <span><a href="https://www.figma.com/design/5HjCLZMHvVBvvBSVwWLMLH/Test-Prep-Interface?node-id=0-1&t=zEHgL6uy6Pa4OOHL-1" target="_blank">App Design</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--5th-->
+            <div class="work__card mix design web">
+                <img src="assets/img/SneakixxThumbnail.png" alt="" class="work__img">
+                <h3 class="work__title">Sneakixx Landing Page</h3>
+                <span class="work__button">View 👀
+                    <i class="fa fa-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Design Showcase: Custom Sneaker Landing Pages</h3>
+                    <p class="details__description">Introducing our innovative landing page for Customized Kicks, "Sneakixx" where you can design and order your personalized sneakers.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>July 2022</span></li>
+                        <li>Technologies - <span>Figma, UI, UX, Wireframing & Prototyping</span></li>
+                        <li>Role - <span>Designer</span></li>
+                        <li>View - <span><a href="https://www.figma.com/design/5NzFtpRE31fbeJj7vENuow/Sneakixx_Design?node-id=0-1&t=73ZA0b8gaK88quL2-1" target="_blank" >Web Design</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--6th-->
+            <div class="work__card mix web design">
+                <img src="assets/img/BankingThumbnail.png" alt="" class="work__img">
+                <h3 class="work__title">Banking Landing Page</h3>
+                <span class="work__button">View 👀
+                    <i class="fa fa-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Crafting Compelling Landing Page: A Design Showcase</h3>
+                    <p class="details__description">It showcases my expertise in designing high-converting landing pages. By combining design principles with visually appealing aesthetics, I can create landing pages that effectively capture user attention and drive conversions.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>June 2022</span></li>
+                        <li>Technologies - <span>Figma, UI, UX, Wireframing</span></li>
+                        <li>Role - <span>Designer</span></li>
+                        <li>View - <span><a href="https://www.figma.com/design/YzgviOL6RnDMq7MXw8LzkQ/Landing-Page?node-id=0-1&t=KyBhqsU4T7dktaYz-1" target="_blank" >Web Design</a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- ================== Portfolio Popup ====================--> 
+       <div class="portfolio__popup">
+        <div class="portfolio__popup-inner">
+            <div class="portfolio__popup-content grid">
+                <span class="portfolio__popup-close"><i class="fa fa-times"></i></span>
+                <div class="pp__thumbnail">
+                    <img src="assets/img/project-img-2.jpg" alt="" class="portfolio__popup-img">
+                </div>
+                <div class="portfolio__popup-info">
+                    <div class="portfolio__popup-subtitle">Featured - <span>Design</span></div>
+                    <div class="portfolio__popup-body">
+                        <h3 class="details__title">App for technology & services</h3>
+                    <p class="details__description">Designing an app and website for a startup. Developed interactive for design iterations.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>Ongoing</span></li>
+                        <li>Technologies - <span>UI UX</span></li>
+                        <li>Role - <span>Designer</span></li>
+                        <li>View - <span><a href="#">www.domain.com</a></span></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonials section">
+        <h2 class="section__title title-center" data-title="Testimonials">
+            What My Clients Say
+        </h2>
+
+        <div class="testimonials__container container grid">
+            
+            <!--1st-->
+            <div class="testimonials__item">
+                <p class="tetstimonials__description">Working with Simrat was transformative for our project. His keen eye for user experience truly elevated our product.</p>
+
+                <div class="testimonials__data">
+                    <img src="assets/img/testimonial-parikh.jpg" alt="" class="testimonials__img">
+
+                    <div>
+                        <h3 class="testimonials__name">Parikh Jain</h3>
+                        <span class="testimonials__identity">Founder @ Propeers, Delhi</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--2nd-->
+            <div class="testimonials__item">
+                <p class="tetstimonials__description">The UI/UX overhaul led by Simrat streamlined our processes and boosted user engagement. A great collaborator!</p>
+
+                <div class="testimonials__data">
+                    <img src="assets/img/testimonial-varun.jpg" alt="" class="testimonials__img">
+
+                    <div>
+                        <h3 class="testimonials__name">Varun Batra</h3>
+                        <span class="testimonials__identity">SWE - Microsoft, WA</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get in touch">
+            Contact Me
+        </h2>
+
+        <div class="contact__container container grid">
+            <div class="contact__details">  
+                <!--1st-->
+                <div class="contact__item">
+                    <i class="fa-solid fa-phone contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Whatsapp </h3>
+                        <span class="contact__data">+91 85448-16035</span>
+                    </div>
+                </div>
+
+                <!--2nd-->
+                <div class="contact__item">
+                    <i class="fa-solid fa-envelope contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Email </h3>
+                        <span class="contact__data">simratpalvaseer@gmail.com</span>
+                    </div>
+                </div>
+
+                <!--3rd-->
+                <div class="contact__item">
+                    <i class="fa-solid fa-location-dot contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Address</h3>
+                        <span class="contact__data">Phase 5, SAS Nagar, Mohali</span>
+                    </div>
+                </div>
+            </div>
+
+            <form action="" class="contact__form">
+                <div class="form__group">
+                    <div class="form__input">
+                        <input type="text" placeholder="Name" class="input__control" />
+                    </div>
+
+                    <div class="form__input">
+                        <input type="email" placeholder="Email" class="input__control" />
+                    </div>
+                </div>
+                
+                <div class="form__input">
+                    <input type="text" placeholder="Subject" class="input__control" />
+                </div>
+
+                <div class="form__input">
+                    <textarea 
+                       name="" 
+                       id="" 
+                       placeholder="Message" 
+                       cols="30" 
+                       rows="10" 
+                       class="input__control textarea"
+                    ></textarea>
+                </div>
+
+                <button class="btn contact__btn" onclick="event.preventDefault(); window.open('https://docs.google.com/forms/d/e/1FAIpQLSfV8CZQuAnq_KVyCTYFM6B3u0yVBQ4fDXGGlGBMa6v9S5bkDg/viewform', '_blank');">
+                    Send Message 🪄
+                </button>
+            </form>
+
+        </div>
+      </section>
+      
+    </main>
+
+    <!-- ======================== MIXITUP FILTER =============================-->
+     <script src="assets/js/mixitup.min.js"></script>
+    
+    <!-- ================== MAIN JS =========================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">Copyright &copy; 2024. Made with ❤️ by Simrat</p>
+
+            <div class="footer__social-links">
+                <a href="https://www.linkedin.com/in/simratpalsinghvaseer-/" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://www.instagram.com/simrat_016/" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://x.com/VSimrat" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section'); 
+            const navLinks = document.querySelectorAll('.nav__link'); 
+    
+            window.addEventListener('scroll', () => {
+                let currentSection = '';
+    
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+    
+                    console.log(`Section: ${section.id}, Top: ${sectionTop}, Height: ${sectionHeight}, ScrollY: ${window.scrollY}`);
+    
+                    if (window.scrollY >= sectionTop - sectionHeight / 3) {
+                        currentSection = section.getAttribute('id');
+                    }
+                });
+
+                console.log(`Current section in view: ${currentSection}`);
+    
+                navLinks.forEach(link => {
+                    link.classList.remove('active-link');
+                    if (link.getAttribute('href').includes(currentSection)) {
+                        link.classList.add('active-link');
+                    }
+                });
+            });
+        });
+    </script>   
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const sections = document.querySelectorAll('section'); 
+        const navLinks = document.querySelectorAll('.nav__link'); 
+
+        window.addEventListener('scroll', () => {
+            let currentSection = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+
+                if (window.scrollY >= sectionTop - sectionHeight / 3) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active-link'); 
+                if (link.getAttribute('href').includes(currentSection)) {
+                    link.classList.add('active-link'); 
+                }
+            });
+        });
+    });
+    </script>
+
+  </body>
+</html>

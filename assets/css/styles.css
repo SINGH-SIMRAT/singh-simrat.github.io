@@ -1152,6 +1152,11 @@ input[type='checkbox'] {
     display: none;
   }
 
+  .services__no {
+    top: 1.5rem;
+    right: 1.5rem;
+  } 
+
   .resume__item:not(:first-child) {
     border-right: none;
   }
@@ -1170,7 +1175,7 @@ input[type='checkbox'] {
 
   .services__no {
     position: absolute;
-    right: 2.5rem;
+    right: 1.5rem;
     top: 1.5rem;
     font-size: 2.5rem;
   }
@@ -1240,6 +1245,11 @@ input[type='checkbox'] {
   .contact__container {
     row-gap: 2rem;
   }
+
+  .services__no {
+    top: 1.5rem;
+    right: 1.5rem;
+  } 
 
   .about__img:not(:first-child) {
     display: none;
@@ -1358,6 +1368,11 @@ input[type='checkbox'] {
     border-right: none;
   }
 
+  .services__no {
+    top: 1.5rem;
+    right: 1.5rem;
+  } 
+
   .skills__titles,
   .skills__description {
     padding: 8px 12px;
@@ -1417,6 +1432,11 @@ input[type='checkbox'] {
     border-right: none;
   }
 
+  .services__no {
+    top: 1.5rem;
+    right: 1.5rem;
+  } 
+
   .services__container,
   .work__container,
   .skills__container,
@@ -1469,7 +1489,8 @@ input[type='checkbox'] {
   }
 
   .services__no {
-    top: 0.85rem;
+    top: 0.95rem;
+    right: 1.5rem;
   }
   
   .skills__description{

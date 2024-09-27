@@ -733,35 +733,33 @@
                 </div>
             </div>
 
-            <form action="" class="contact__form">
+            <form action="https://formspree.io/f/mqazredz" method="post" target="_blank" class="contact__form">
                 <div class="form__group">
                     <div class="form__input">
-                        <input type="text" placeholder="Name" class="input__control" />
+                        <input type="text" name="Name" placeholder="Name" class="input__control" required/>
                     </div>
 
                     <div class="form__input">
-                        <input type="email" placeholder="Email" class="input__control" />
+                        <input type="tel" name="Phone" placeholder="Phone Number" class="input__control" required/>
                     </div>
                 </div>
                 
                 <div class="form__input">
-                    <input type="text" placeholder="Subject" class="input__control" />
+                    <input type="text" name="Subject" placeholder="Subject" class="input__control" />
                 </div>
 
                 <div class="form__input">
                     <textarea 
-                       name="" 
+                       name="Message" 
                        id="" 
                        placeholder="Message" 
                        cols="30" 
                        rows="10" 
                        class="input__control textarea"
+                       required
                     ></textarea>
                 </div>
-
-                <button class="btn contact__btn" onclick="event.preventDefault(); window.open('https://docs.google.com/forms/d/e/1FAIpQLSfV8CZQuAnq_KVyCTYFM6B3u0yVBQ4fDXGGlGBMa6v9S5bkDg/viewform', '_blank');">
-                    Send Message 🪄
-                </button>
+                <button class="btn contact__btn" type="submit">Send Message 🪄</button>
             </form>
 
         </div>

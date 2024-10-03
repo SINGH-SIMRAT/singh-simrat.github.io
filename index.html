@@ -856,5 +856,34 @@
     });
     </script>
 
+    <script>
+    // Load the audio file
+    const hoverSound = new Audio('assets/sounds/flipcard.mp3'); 
+
+    // Check if the audio file is loaded
+    hoverSound.addEventListener('canplaythrough', () => {
+        console.log("Audio file loaded successfully"); // Debugging: to check if the file loads
+    }, false);
+
+    // Select all header links
+    const headerLinks = document.querySelectorAll('.nav__link');
+
+    // Function to play sound
+    function playHoverSound() {
+        hoverSound.currentTime = 0;  // Rewind to start
+        hoverSound.play().catch(error => {
+            console.log("Autoplay prevented, user interaction required", error);
+        });
+    }
+
+    // Add hover event listeners to each link
+    headerLinks.forEach(link => {
+        link.addEventListener('mouseenter', () => {
+            console.log("Hover detected on:", link.textContent); // Debugging: check if hover works
+            playHoverSound(); // Play sound on hover
+        });
+    });
+    </script> 
+
   </body>
 </html>

@@ -1220,6 +1220,14 @@ input[type='checkbox'] {
   .contact__container{
     grid-template-columns: 1fr;
   }
+
+  .resume__group:nth-child(1) {
+    order: 2; /* Move Education down */
+  }
+
+  .resume__group:nth-child(2) {
+    order: 1; /* Move Experience up */
+  }
   
   .home__content {
     order: 1;

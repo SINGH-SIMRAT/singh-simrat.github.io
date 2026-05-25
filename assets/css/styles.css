@@ -673,6 +673,21 @@ input[type='checkbox'] {
   font-size: var(--larger-font-size);
 }
 
+.resume__subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume__institution-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+}
+
 .resume__icon {
   background-color: var(--container-color);
   border: 2px dashed var(--border-color);
@@ -1152,6 +1167,21 @@ input[type='checkbox'] {
     display: none;
   }
 
+  .resume__subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume__institution-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+}
+
   .services__no {
     top: 1.5rem;
     right: 1.5rem;
@@ -1228,6 +1258,21 @@ input[type='checkbox'] {
   .resume__group:nth-child(2) {
     order: 1; /* Move Experience up */
   }
+
+  .resume__subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume__institution-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+}
   
   .home__content {
     order: 1;
@@ -1376,6 +1421,21 @@ input[type='checkbox'] {
     border-right: none;
   }
 
+  .resume__subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume__institution-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+}
+
   .services__no {
     top: 1.5rem;
     right: 1.5rem;
@@ -1440,6 +1500,21 @@ input[type='checkbox'] {
     border-right: none;
   }
 
+  .resume__subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume__institution-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+}
+
   .services__no {
     top: 1.5rem;
     right: 1.5rem;
@@ -1491,6 +1566,21 @@ input[type='checkbox'] {
   .resume__content {
     padding-inline: 1rem 1.5rem;
   }
+
+  .resume__subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume__institution-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+}
 
   .services__item {
     padding: 2rem 1.5rem;
